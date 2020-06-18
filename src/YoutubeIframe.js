@@ -18,7 +18,7 @@ const YoutubeIframe = (
     width,
     videoId,
     playList,
-    GDPR=false,
+    GDPR = false,
     play = false,
     mute = false,
     volume = 100,

@@ -108,7 +108,7 @@ export const MAIN_SCRIPT = (
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          host: '${GDPR ? "https://www.youtube-nocookie.com" : "https://www.youtube.com"}'
+          host: '${GDPR ? "https://www.youtube-nocookie.com" : "https://www.youtube.com"}',
           height: '1000',
           width: '1000',
           videoId: '${videoId || ''}',
