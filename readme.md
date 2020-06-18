@@ -80,7 +80,7 @@ list of available APIs -
 - onChangeState
 - onReady
 - onError
-- onFullScreenChange
+- onFullScreenChange (Android only)
 - onPlaybackQualityChange
 - mute
 - volume

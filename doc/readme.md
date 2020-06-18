@@ -38,7 +38,7 @@
 - [onChangeState](#onChangeState)
 - [onReady](#onReady)
 - [onError](#onError)
-- [onFullScreenChange](#onFullScreenChange)
+- [onFullScreenChange](#onFullScreenChange) (Android only)
 - [onPlaybackQualityChange](#onPlaybackQualityChange)
 - [mute](#mute)
 - [volume](#volume)
@@ -175,9 +175,9 @@ Possible values are:
 | video_not_found   | The video requested was not found. This error occurs when a video has been removed (for any reason) or has been marked as private.                                                                                                   |
 | embed_not_allowed | The owner of the requested video does not allow it to be played in embedded players.                                                                                                                                                 |
 
-## onFullScreenChange
+## onFullScreenChange 
 
-**_function(status: boolean)_**
+**_function(status: boolean)_** (Android only)
 
 This event fires whenever the fullscreen option is clicked in the player.
 
