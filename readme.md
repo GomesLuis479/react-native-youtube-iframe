@@ -76,6 +76,7 @@ list of available APIs -
 - videoId
 - playList
 - playListStartIndex
+- GDPR
 - play
 - onChangeState
 - onReady

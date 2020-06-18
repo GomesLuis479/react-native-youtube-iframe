@@ -45,6 +45,10 @@ export interface YoutubeIframeProps {
    */
   playList?: Array<String> | String;
   /**
+   * Flag to use a GDPR compliant player with host as https://youtube-nocookie.com
+   */
+  GDPR?: Boolean;
+  /**
    * Flag to tell the player to play or pause the video.
    */
   play?: Boolean;

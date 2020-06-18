@@ -34,6 +34,7 @@
 - [videoId](#videoId)
 - [playList](#playList)
 - [playListStartIndex](#playListStartIndex)
+- [GDPR](#GDPR)
 - [play](#play)
 - [onChangeState](#onChangeState)
 - [onReady](#onReady)
@@ -124,6 +125,14 @@ or
 
 Starts the playlist from the given index
 **Works only if the playlist is a list of video IDs.**
+
+## GDPR
+
+**_Boolean_**
+
+Flag to use a GDPR compliant player with host as https://www.youtube-nocookie.com
+
+Defaults to false and uses https://www.youtube.com as host
 
 ## play
 

@@ -18,6 +18,7 @@ const YoutubeIframe = (
     width,
     videoId,
     playList,
+    GDPR=false,
     play = false,
     mute = false,
     volume = 100,
@@ -180,6 +181,7 @@ const YoutubeIframe = (
           html: MAIN_SCRIPT(
             videoId,
             playList,
+            GDPR,
             initialPlayerParams,
             allowWebViewZoom,
           ),
