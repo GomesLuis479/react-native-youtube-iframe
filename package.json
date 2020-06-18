@@ -1,6 +1,6 @@
 {
   "name": "react-native-youtube-iframe",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "A simple wrapper around the youtube iframe js API for react native",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LonelyCpp/react-native-youtube-iframe.git"
+    "url": "git+https://github.com/GomesLuis479/react-native-youtube-iframe.git"
   },
   "keywords": [
     "react-native",
@@ -27,9 +27,9 @@
   "author": "Ananthu P Kanive",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LonelyCpp/react-native-youtube-iframe/issues"
+    "url": "https://github.com/GomesLuis479/react-native-youtube-iframe/issues"
   },
-  "homepage": "https://lonelycpp.github.io/react-native-youtube-iframe/",
+  "homepage": "https://github.com/GomesLuis479/react-native-youtube-iframe/",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-native": ">=0.59",
