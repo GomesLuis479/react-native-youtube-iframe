@@ -1,5 +1,5 @@
 {
-  "name": "react-native-youtube-iframe",
+  "name": "react-native-youtube-iframe-with-fs-callback",
   "version": "1.2.5",
   "description": "A simple wrapper around the youtube iframe js API for react native",
   "main": "index.js",
