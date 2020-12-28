@@ -178,6 +178,7 @@ const YoutubeIframe = (
         mediaPlaybackRequiresUserAction={false}
         allowsFullscreenVideo={!initialPlayerParams?.preventFullScreen}
         source={{
+          baseUrl: "https://youtube.com",
           html: MAIN_SCRIPT(
             videoId,
             playList,
